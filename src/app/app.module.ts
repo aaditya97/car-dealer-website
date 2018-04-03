@@ -22,7 +22,7 @@ import { PriceComponent } from './price/price.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
