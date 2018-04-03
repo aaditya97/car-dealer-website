@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    margin-left: 20px;
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    padding: 5px 23px;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: #ff5728;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+    background-color: lightgray;
+}
+
+
+
+/*asfasfasf*/
+body {
+    background:#f48041;
+    padding: 3em;
+    font-family: 'Raleway', 'Arial';
+    color:#fff;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #000000;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    margin-bottom: 100px;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #423e3e;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    font-size: 50px;
+}
