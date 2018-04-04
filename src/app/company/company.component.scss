@@ -1,4 +1,4 @@
-.sidenav {
+ .sidenav {
     width: 130px;
     position: fixed;
     z-index: 1;
@@ -18,4 +18,6 @@
 .sidenav a:hover {
     color: #000000;
     transform: scale(1.2);
-}
+    background-color: #f7551b;
+    width: 150px;
+} 

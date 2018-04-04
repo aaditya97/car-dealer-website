@@ -9,6 +9,13 @@ import { CompanyComponent } from './company/company.component';
 import { CarComponent } from './car/car.component';
 import { ModelComponent } from './model/model.component';
 import { PriceComponent } from './price/price.component';
+import { ClientsComponent } from './company/clients/clients.component';
+import { NetworkingComponent } from './company/networking/networking.component';
+import { AboutComponent } from './car/about/about.component';
+import { ReviewsComponent } from './car/reviews/reviews.component';
+import { BaseComponent } from './model/base/base.component';
+import { TopComponent } from './model/top/top.component';
+import { CalcComponent } from './price/calc/calc.component';
 
 
 @NgModule({
@@ -18,7 +25,14 @@ import { PriceComponent } from './price/price.component';
     CompanyComponent,
     CarComponent,
     ModelComponent,
-    PriceComponent
+    PriceComponent,
+    ClientsComponent,
+    NetworkingComponent,
+    AboutComponent,
+    ReviewsComponent,
+    BaseComponent,
+    TopComponent,
+    CalcComponent
   ],
   imports: [
     BrowserModule,
